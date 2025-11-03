@@ -7,8 +7,8 @@ const TermsOfService = () => {
 
       <h2>1. Introduction</h2>
       <p>
-        Welcome to [Your Website Name]. These Terms and Conditions govern your
-        use of our website located at [Your Website URL]. By accessing or using
+        Welcome to Job Portal Web. These Terms and Conditions govern your
+        use of our website located at [##url]. By accessing or using
         our website, you agree to comply with these terms.
       </p>
 
@@ -60,7 +60,7 @@ const TermsOfService = () => {
       <h2>8. Contact Information</h2>
       <p>
         If you have any questions about these Terms and Conditions, please
-        contact us at [Your Contact Information].
+        contact us at skumar2@mt.iitr.ac.in.
       </p>
     </div>
   );
