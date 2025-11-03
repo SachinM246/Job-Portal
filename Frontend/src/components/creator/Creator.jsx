@@ -1,9 +1,6 @@
 import React from 'react'
 import Navbar from '../components_lite/Navbar'
-import Sachin from './Creator.jpg'; // Import the local image
-import ankit from './Ankit.jpg';
-import ritik from './ritik.jpg';
-import gaurav from './gaurav.jpg';
+import Sachin from './Creator.jpg';
 
 const Creator = () => {
   return (
@@ -13,44 +10,51 @@ const Creator = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center w-full">
           {/* Image Section */}
           <div className="flex justify-center">
-            <img src={Sachin} alt="Sachin" className="h-80 object-cover rounded-lg shadow-md" />
+            <img src={Sachin} alt="Sachin Mathur" className="h-80 object-cover rounded-lg shadow-md" />
           </div>
           {/* Text Section */}
           <div>
-            <h2 className="text-2xl font-bold text-gray-800 mb-4">Er. Sachin Kumar</h2>
-            <p className="text-gray-600 mb-2">Dr. Amresh Kumar completed his <strong>B.Tech in Electronics and Communication Engineering (ECE)</strong> from <strong>Shivnand Singh Institution of Technology and Management, Aligarh</strong>, in <strong>2002</strong>.</p>
-            <p className="text-gray-600 mb-2">After graduation, he joined <strong>Koderma Mines Institution</strong> as a <strong>part-time lecturer</strong>. He then pursued his <strong>M.Tech in Electrical Engineering</strong> from <strong>BIT Sindri, Dhanbad</strong>.</p>
-            <p className="text-gray-600 mb-2">He was later selected as an <strong>Assistant Professor</strong> in the <strong>Electronics and Communication Engineering (ECE) Department</strong> at <strong>MIT Muzaffarpur</strong>. During his tenure there, he also completed his <strong>Ph.D. in Electrical Engineering</strong> from <strong>Bihar University, Muzaffarpur, in 2016</strong>.</p>
-            <p className="text-gray-600">Following his Ph.D., he was transferred to <strong>Rashtrakavi Ramdhari Singh Dinkar College of Engineering (RRSDCE)</strong> as an <strong>Assistant Professor in the Electrical and Electronics Engineering (EEE) Department</strong>, where he continues to serve till date.</p>
+            <h2 className="text-2xl font-bold text-gray-800 mb-4">Sachin Mathur</h2>
+            <p className="text-gray-600 mb-2">Sachin Mathur completed his <strong>B.Tech in Metallurgical and Materials Engineering</strong> from <strong>Indian Institute of Technology, Roorkee</strong>, in <strong>2020</strong> with a CGPA of 6.0.</p>
+            <p className="text-gray-600 mb-2">During his undergraduate studies, he served as <strong>Deputy Secretary of Himalayan Explorers Club</strong>, <strong>Unit Manager at Empower Bharat</strong>, and <strong>Coordinator at Cognizance</strong>. He also earned a <strong>Blue Belt and Silver Medal in Taekwondo</strong>.</p>
+            <p className="text-gray-600 mb-2">He then pursued his <strong>M.Tech in Corrosion Engineering</strong> from <strong>Indian Institute of Technology, Roorkee</strong>, completing in <strong>2023</strong> with a CGPA of 6.5. During this time, he served as a <strong>Teaching Assistant for Introduction to Machine Learning</strong> and won <strong>Gold in Snatak Football</strong>.</p>
+            <p className="text-gray-600">With <strong>2+ years of professional experience</strong>, he has worked as a <strong>Senior Software Engineer at Uniconnect Intelligent Tech</strong> and <strong>Backend Developer at TechAAG</strong>, specializing in full-stack development with technologies including <strong>React, Node.js, Express.js, MongoDB, PostgreSQL</strong>, and modern web technologies.</p>
           </div>
         </div>
       </div>
-
       <hr className="w-full border-gray-300 my-6" />
-
       <div className="text-center p-6">
         <h2 className="text-2xl font-bold text-gray-800 mb-6">Developers and Designers</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {/* Developer 1 - Ankit Pathak */}
-          <a href="https://ankitpathak.vercel.app/" target="_blank" rel="noopener noreferrer" className="block text-center">
-            <img src={ankit} alt="Ankit Pathak" className="mx-auto rounded-lg shadow-md" />
-            <h3 className="text-lg font-semibold text-gray-700 mt-2">Ankit Pathak</h3>
-            <p className="text-gray-600 text-sm">Registration No: 21110125035</p>
+          {/* Developer 1 */}
+          <a href="#" className="block text-center">
+            <img
+              src="https://placehold.co/600x400/png"
+              alt="Developer"
+              className="mx-auto rounded-lg shadow-md w-full max-w-xs"
+            />
+            <h3 className="text-lg font-semibold text-gray-700 mt-2">Developer Name</h3>
             <p className="text-gray-600 text-sm">Full Stack Developer</p>
           </a>
-          {/* Developer 2 - Ritik Shrivastava */}
+          {/* Developer 2 */}
           <a href="#" className="block text-center">
-            <img src={ritik} alt="Ritik Shrivastava" className="mx-auto rounded-lg shadow-md" />
-            <h3 className="text-lg font-semibold text-gray-700 mt-2">Ritik Shrivastava</h3>
-            <p className="text-gray-600 text-sm">Registration No: 21110125043</p>
+            <img
+              src="https://placehold.co/600x400/png"
+              alt="Designer"
+              className="mx-auto rounded-lg shadow-md w-full max-w-xs"
+            />
+            <h3 className="text-lg font-semibold text-gray-700 mt-2">Designer Name</h3>
             <p className="text-gray-600 text-sm">UI/UX Designer</p>
           </a>
-          {/* Developer 3 - Gaurav Kumar */}
+          {/* Developer 3 */}
           <a href="#" className="block text-center">
-            <img src={gaurav} alt="Gaurav Kumar" className="mx-auto rounded-lg shadow-md" />
-            <h3 className="text-lg font-semibold text-gray-700 mt-2">Gaurav Kumar</h3>
-            <p className="text-gray-600 text-sm">Registration No: 21110125023</p>
-            <p className="text-gray-600 text-sm">Research</p>
+            <img
+              src="https://placehold.co/600x400/png"
+              alt="Developer"
+              className="mx-auto rounded-lg shadow-md w-full max-w-xs"
+            />
+            <h3 className="text-lg font-semibold text-gray-700 mt-2">Developer Name</h3>
+            <p className="text-gray-600 text-sm">Full Stack Developer</p>
           </a>
         </div>
       </div>
