@@ -194,8 +194,8 @@ Contributions are welcome! If you'd like to improve this project:
 ## Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
+- GitHub: [@yourusername](https://github.com/SachinM246)
+- LinkedIn: [Your LinkedIn](https://linkedin.com/in/sachin-mathur-581337140)
 
 ## Acknowledgments
 

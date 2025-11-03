@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../components_lite/Navbar'
-import amreshsir from './amreshsir.jpg'; // Import the local image
+import Sachin from './Creator.jpg'; // Import the local image
 import ankit from './Ankit.jpg';
 import ritik from './ritik.jpg';
 import gaurav from './gaurav.jpg';
@@ -13,11 +13,11 @@ const Creator = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center w-full">
           {/* Image Section */}
           <div className="flex justify-center">
-            <img src={amreshsir} alt="Amresh Sir" className="h-80 object-cover rounded-lg shadow-md" />
+            <img src={Sachin} alt="Sachin" className="h-80 object-cover rounded-lg shadow-md" />
           </div>
           {/* Text Section */}
           <div>
-            <h2 className="text-2xl font-bold text-gray-800 mb-4">Dr. Amresh Kumar</h2>
+            <h2 className="text-2xl font-bold text-gray-800 mb-4">Er. Sachin Kumar</h2>
             <p className="text-gray-600 mb-2">Dr. Amresh Kumar completed his <strong>B.Tech in Electronics and Communication Engineering (ECE)</strong> from <strong>Shivnand Singh Institution of Technology and Management, Aligarh</strong>, in <strong>2002</strong>.</p>
             <p className="text-gray-600 mb-2">After graduation, he joined <strong>Koderma Mines Institution</strong> as a <strong>part-time lecturer</strong>. He then pursued his <strong>M.Tech in Electrical Engineering</strong> from <strong>BIT Sindri, Dhanbad</strong>.</p>
             <p className="text-gray-600 mb-2">He was later selected as an <strong>Assistant Professor</strong> in the <strong>Electronics and Communication Engineering (ECE) Department</strong> at <strong>MIT Muzaffarpur</strong>. During his tenure there, he also completed his <strong>Ph.D. in Electrical Engineering</strong> from <strong>Bihar University, Muzaffarpur, in 2016</strong>.</p>
@@ -25,9 +25,9 @@ const Creator = () => {
           </div>
         </div>
       </div>
-      
+
       <hr className="w-full border-gray-300 my-6" />
-      
+
       <div className="text-center p-6">
         <h2 className="text-2xl font-bold text-gray-800 mb-6">Developers and Designers</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
